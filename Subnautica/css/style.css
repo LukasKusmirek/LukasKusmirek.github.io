@@ -1,0 +1,313 @@
+body
+{
+	background-image: url("../img/unterwasser2.jpg");
+	/* legt Hintergrundbild fest */
+	/*background-attachment: fixed; /*
+	/* Hintergrundbild bleibt starr */
+	background-repeat: no-repeat; 
+	/* HG wird nur einmal dargestellt, keine Wdh. */
+	background-size: cover; 
+	/** Hintergrundbild bedeckt den HG komplett */
+
+}
+
+
+#header 
+/* Navigationsleiste */
+{	
+	background-color: rgba(255,255,255,0.5); /*Farbe der Menüleiste ist weiß und halb-durchsichtig */
+	width: 100%; /* Leiste geht über die gesamte Breite der Seite */
+	height: 50px; /* Höhe der Navigationsleiste */
+}
+/*--------------------------------------------------------- */
+
+
+
+
+#header nav
+{
+	max-width:1000px; 
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom:10px; 
+}
+
+#nav a
+{
+	width: 20%; /* Jedes Element besitzt 20% der breite */
+	color:white; /* Schriftfarbe */
+	font-size:25px; /* Schriftgröße */
+	float: left;
+	text-decoration: none; /* Keine Textdekoration */
+	text-align: center; /* Schrift zentriert */
+	
+}
+
+/* ------------------------------------------------------- */
+
+#nav a:hover /*Unterlegt Menüpunkte grau beim drüberfahren */
+{
+	color:grey;
+}
+#logo 
+{
+	text-align: center; 
+	margin: 20px;
+}
+footer
+{
+	margin-top:60px;
+	padding:10px;
+	color: #A4A4A4;
+	margin-left: 10px;
+}
+section
+{
+
+	background-color: white;
+	background-color: rgba(255,255,255,0.5); /* weißer, durchsichtiger Hintergund */
+	padding: 20px;
+	margin-top: 100px;
+	margin-right:250px;
+	margin-left: 250px;
+	border-radius: 10px; /* runde Kanten */
+	margin-bottom: 0px; 
+}
+video
+{
+	width:100%;
+	margin-top: 30px;
+}
+section#Handlung
+{
+	margin-top: 40px;
+}
+
+img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+p
+{
+	text-align: justify; /* Blocksatz */
+}
+
+div#Karte
+{
+	text-align: center;
+	float: left;
+	margin: 20px;
+	margin-left: 0px;
+
+}
+div#Karte img 
+/* verhindert Abstand zwischen Untertitel und Bild */
+{
+	display: block; 
+	margin: 0 auto;
+}
+p#UntertitelWeltkarte
+{
+	background-color: white; 
+	background-color: rgba(255,255,255,0.45);
+	padding: 10px;
+	text-align: left;
+	
+}
+ 
+div#Basis
+{
+	text-align: center;
+	margin: 30px;
+	margin-bottom: 0px;
+}
+div#Basis img 
+{
+	display: block; 
+	margin: 0 auto;
+}
+p#UntertitelBasis
+{
+	
+	background-color: white; 
+	background-color: rgba(255,255,255,0.45);
+	padding: 10px;
+	text-align: left;
+}
+div#Raumschiff
+{
+	text-align: center;
+	float: right;
+    margin: 20px;
+}
+div#Raumschiff img
+{
+	display: block; 
+	margin: 0 auto;
+}
+
+p#UntertitelRaumschiff
+{
+	background-color: white; 
+	background-color: rgba(255,255,255,0.45);
+	padding: 10px;
+	text-align: left;
+}
+
+
+/* ------------------------------------------
+		
+		Silder			
+ */
+
+/* Slideshow container */
+.slideshow-container 
+{
+  max-width: 1000px;
+  height: 450px;
+  overflow: hidden;
+  position: relative; 
+  margin-top: 60px;
+  margin-right: 130px;
+  margin-left: 170px;
+ }
+
+.mySlides 
+{
+    display: none;
+}
+
+/* Vor und Zurück-Buttons */
+.prev, .next 
+{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position des "weiter"-buttons auf der rechten Seite */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Übergang: schwarzer Hintergrund, leicht durchsichtig */
+.prev:hover, .next:hover 
+{
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Die Navigations-Punkte */
+.dot 
+{
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover 
+{
+  background-color: #717171;
+}
+/* Übergangsanimation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+/*-------------------------------------------------- */
+
+.Biome h1
+{
+	font-size: large; /* Schriftart Groß */
+}
+
+.Biome img
+{
+	float:left;
+	margin-right:20px;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+.Fauna h1
+{
+	font-size: x-large; /* Schriftart sehr groß */
+}
+
+.Fauna h2
+{
+	font-size: large;
+}
+.Fauna h3
+{
+	font-size: normal;
+}
+
+/* Bilder werden links vom Text angezeigt */
+.links 
+{
+	float:left;
+	margin-right:20px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+/* Bilder werden rechts vom Text angezeigt */
+.rechts
+{
+	float:right;
+	margin-left:20px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+#Blutgras p
+{
+
+  	margin: 50px;
+  	margin-left: 50px;
+
+}
+#Blutgras
+{
+	height: 215px;
+}
+#Palme
+{
+	height: 215px;
+}
+#Palme p 
+{
+	margin-left: 50px;
+	margin-top: 40px;
+	margin-right: 40px;
+}
