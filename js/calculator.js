@@ -15,11 +15,9 @@ function buttonClick(value){
     screen.innerText = buffer;
 }
 
-function handleSymbol(symbol){}
-
 function handleSymbol(symbol){
     console.log("handleSymbol", symbol);
-   
+   debugger;
     switch(symbol){
         case"C":
             buffer = "0";
@@ -35,9 +33,12 @@ function handleSymbol(symbol){
             runningTotal = 0;
             break;
         case"←":
-            if(buffer.length===1){
-                buffer = "0"
+            if(buffer.length === 1){
+                buffer = "0";
+            }else{
+                buffer = buffer.substring(0, buffer.length-1);
             }
+            break;
         case"+":
         case"−":
         case"×":
@@ -78,11 +79,11 @@ function flushOperation(intBuffer){
     console.log("runningTotal", runningTotal);
 }
 
-function handleNumber(screenNumber){
+function handleNumber(numberString){
     if (buffer === "0"){
-        buffer = screenNumber;
+        buffer = numberString;
     }else{
-        buffer = buffer + screenNumber;
+        buffer = buffer + numberString;
     }
 }
 
