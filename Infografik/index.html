@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Abgasbilanz</title>
+
+</head>
+<body>
+
+    <div class="intro">
+        <img class ="wallpaper" src="./img/wallpaper2.jpg" alt="">
+        <div class="introkreis">
+            <div class="introtext">
+                Ökobilanz Alternativer Antriebe
+            </div> 
+        </div> 
+    </div>
+    <div class="chart_and_text">
+
+
+        <div class="text" id="d1">
+            <h1>Treibhausgas Emissionen</h1>
+            <br>
+            <div class="symbol_and_description">
+                <div class="symbol">
+                    <p>■</p>
+                    <br><br><br><br><br>
+                    <p>■</p>
+                    <br><br><br><br>
+                    <p>■</p>
+                    <br><br><br>
+                    <p>■</p>
+                    <br><br><br><br><br><br><br>
+                    <p>■</p>
+                    <br><br>
+                    <p>■</p>
+                </div>
+                <div class="description">
+                    <p>
+                        Treibhausgas-Emissionen sind in erster Linie CO2-Emissionen, ebenfalls dazu zählen andere klimawirksame Gase (wie z. B. Methan oder Lachgas), die über einen Umrechnungsfaktor (über das sog. Global Warming Potential) in CO2-eqEmissionen umgerechnet werden.
+                            <br><br>
+                            Es zeigt sich eindeutig, dass konventionelle fossil  betriebene Fahrzeuge die meisten Treibhausgas-Emissionen verursachen, wobei die direkten Emissionen aus der Kraftstoffverbrennung den größten Beitrag liefern.
+                            <br><br>
+                            Ein elektrischer Fahranteil von 44 % verringert zwar die direkten Emissionen des Benzin PHEV, dennoch werden beinahe 100 g CO2-eq/Fkm ausgestoßen.
+                            <br><br>
+                            Ein klarer Klimavorteil bei den elektrischen Antrieben (BEV und FC-BEV) ist dann gegeben, wenn für die Energiebereitstellung Strom aus erneuerbaren Quellen (etwa nach Umweltzeichen 46) herangezogen wird: im Vergleich zum rein fossilen Benzin PKW um 86 bzw. 87 % weniger THG-Emissionen, im Vergleich zum rein fossilen Diesel um 83 bzw. 84 %.
+                            <br><br>
+                            Bei der Fahrzeugherstellung unterscheiden sich die Treibhaus-Emissionen nur marginal.
+                            <br><br>
+                            Die Akkuherstellung eines BEV bedingt ähnlich viele Emissionen wie die restliche Fahrzeugherstellung.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+         <div class="text" id="d2" style="display: none;">
+            <h1>Stickstoff Emissionen </h1>
+            <br>
+            <div class="symbol_and_description">
+                <div class="symbol">
+                    <p>■</p>
+                    <br><br><br><br><br><br>
+                    <p>■</p>
+                    <br><br>
+                    <p>■</p>
+                    <br><br><br>
+                    <p>■</p>
+                    <br><br><br><br>
+                    <p>■</p>
+                </div>
+                <div class="description">
+                    <p>
+                        Stickoxide entstehen überwiegend als unerwünschte Nebenprodukte bei der Verbrennung von Treibstoffen bei hoher Temperatur und sind u. a. auf Grund ihrer gesundheitsschädigenden Wirkung von besonderem Interesse.
+                        Diesel-PKW stoßen mit Abstand die meisten direkten NOx-Emissionen aus. 
+                        <br><br>
+                        Die Energiebereitstellung bedingt (mit Ausnahme der Diesel-PKW) die meisten
+                        NOx-Emissionen. 
+                        <br><br>
+                        Umweltvorteile der elektrischen Antriebe hinsichtlich der gesamten NOx-Emissionen zeigen sich nur bei Nutzung des Stromes nach Umweltzeichen 46. 
+                        <br><br>
+                        BEV und FC-BEV mit UZ-46 Strom verursachen im Vergleich zu fossilen Benzin PKW um 38 % weniger und im Vergleich zum Diesel PKW um 66 % weniger NOx-Emissionen. 
+                        <br><br>
+                        Bei Biogas stammen die indirekten NOx-Emissionen der Energiebereitstellung
+                        vorwiegend aus der Landwirtschaft (Dieseleinsatz z. B. im Traktor) und aus
+                        dem Fermenter (Energieeinsatz). 
+                    </p>
+                </div>
+            </div>
+         </div>
+
+
+            <div class="text" id="d3" style="display: none;">
+                <h1>Partikel Emissionen</h1>
+                <br>
+                <div class="symbol_and_description">
+                    <div class="symbol">
+                        <p>■</p>
+                        <br><br><br><br>
+                        <p>■</p>
+                        <br><br><br><br><br>
+                        <p>■</p>
+                        <br><br><br><br>
+                        <p>■</p>
+                        <br><br><br><br>
+                        <p>■</p>
+                    </div>
+                    <div class="description">
+                        <p>
+                            Partikel-Emissionen entstehen nicht nur bei Herstellung und Betrieb des Fahrzeugs, sondern auch durch Abrieb und Wiederaufwirbelung. Partikel-Emissionenweisen ein hohes gesundheitliches Risiko auf.
+                                <br><br>
+                                Alternative Antriebe weisen hinsichtlich Partikel-Emissionen keine bessere
+                                Ökobilanz auf. 
+                                <br><br>
+                                Bei allen Antriebsarten sind die PM10-Emissionen aus der Fahrzeugherstellung in einer ähnlichen Größenordnung.
+                                <br><br>
+                                Bei Biogas-PKW sind die indirekten Emissionen der Energiebereitstellung (vorwiegend beim Fermenter und aus der Düngemittelproduktion) höher als die bei der Fahrzeugherstellung.
+                                <br><br>
+                                Der hohe Energieeinsatz (und hier vor allem die Energiebereitstellung durch Kohlekraftwerke z. B. bei der Aluminiumproduktion) bei der Akkuherstellung bedingt die hohe PM-Emissionen bei den BEV. 
+                                <br><br>
+                                Bei fossil betriebenen PKW hat der Partikelfilter, der standardmäßig in allen PKW der Euroklasse 6d_temp vorhanden ist, das Problem der Partikel-Emissionen deutlich reduziert.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text" id="d4" style="display: none;">
+                    <h1>Kulmilierter Energieaufwand</h1>
+                    <br>
+                    <div class="symbol_and_description">
+                        <div class="symbol">
+                            <p>■</p>
+                            <br><br><br><br><br>
+                            <p>■</p>
+                            <br><br><br><br>
+                            <p>■</p>
+                            <br><br><br>
+                            <p>■</p>
+                            <br><br><br><br><br><br><br>
+                            <p>■</p>
+                            <br><br>
+                            <p>■</p>
+                        </div>
+                        <div class="description">
+                            <p>
+                                Treibhausgas-Emissionen sind in erster Linie CO2-Emissionen, ebenfalls dazu zählen andere klimawirksame Gase (wie z. B. Methan oder Lachgas), die über einen Umrechnungsfaktor (über das sog. Global Warming Potential) in CO2-eqEmissionen umgerechnet werden.
+                                    <br><br>
+                                    Es zeigt sich eindeutig, dass konventionelle fossil  betriebene Fahrzeuge die meisten Treibhausgas-Emissionen verursachen, wobei die direkten Emissionen aus der Kraftstoffverbrennung den größten Beitrag liefern.
+                                    <br><br>
+                                    Ein elektrischer Fahranteil von 44 % verringert zwar die direkten Emissionen des Benzin PHEV, dennoch werden beinahe 100 g CO2-eq/Fkm ausgestoßen.
+                                    <br><br>
+                                    Ein klarer Klimavorteil bei den elektrischen Antrieben (BEV und FC-BEV) ist dann gegeben, wenn für die Energiebereitstellung Strom aus erneuerbaren Quellen (etwa nach Umweltzeichen 46) herangezogen wird: im Vergleich zum rein fossilen Benzin PKW um 86 bzw. 87 % weniger THG-Emissionen, im Vergleich zum rein fossilen Diesel um 83 bzw. 84 %.
+                                    <br><br>
+                                    Bei der Fahrzeugherstellung unterscheiden sich die Treibhaus-Emissionen nur marginal.
+                                    <br><br>
+                                    Die Akkuherstellung eines BEV bedingt ähnlich viele Emissionen wie die restliche Fahrzeugherstellung.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+
+
+               
+
+         <div class="chart_and_buttons">
+            <div class="buttons">
+                <button class="btn_chart" id="0" onclick="showContent('d1');">Treibhausgas-Emissionen</button>
+                <button class="btn_chart" id="1" onclick="showContent('d2');">Stickoxid-Emissionen</button>
+                <button class="btn_chart" id="2" onclick="showContent('d3');">Partikel-Emissionen</button>
+                <button class="btn_chart" id="3" onclick="showContent('d4');">Kulmilierter Energieaufwand</button>
+            </div>
+            <div class = "chart">
+                <canvas id="exhaust_chart" width="1000" height="500"></canvas>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+            <script src="two_datasets.js"></script>
+        </div>
+    </div>
+    
+    
+</body>
+<footer>
+    <p class="footer_text">Infografik by Lukas</p>
+</footer>
+</html>
+
