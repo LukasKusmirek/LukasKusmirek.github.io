@@ -1,0 +1,110 @@
+
+.chart{
+    border: 1px solid black;
+    background: white;
+    border: none;
+    border-radius: 0px 35px 35px 35px;
+    padding: 30px;
+    
+}
+.btn_chart{
+    padding: 0.5em;
+    /*margin-right: 0.5em; */
+    background-color: #7E7575;
+    color: white;
+    font-size: 2;
+    border: none;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 30px 15px 30px;
+    
+}
+.btn_checked{
+    background:rgb(255, 255, 255);
+    color: #7E7575;
+    border: none;
+    border-radius: 20px 20px 0px 0px;
+    padding: 15px 30px 15px 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+button:focus {outline:0;}
+.buttons{
+    display: flex;
+}
+.chart_and_text{
+    display: flex;
+    background: #CCC3C3;
+    width: 100vw;
+    height: 94vh;
+}
+.chart_and_buttons{
+    width:75%;
+    margin: 100px 100px 0px 25px;
+    height: 600px;
+}
+.text{
+    background: #7E7575;
+    border-radius: 31px;
+    width: 25%;
+    padding: 50px 40px 50px 40px;
+    margin: 100px 25px 100px 100px;
+    height: 570px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Arial';
+    line-height: 140%;
+}
+
+.wallpaper{
+    width: 100%;
+    height: auto;
+    border-radius: 150px;
+}
+.intro{
+    padding: 100px 300px 100px 300px;
+}
+.introkreis{
+    height:450px;
+    width:450px;
+    border-radius: 124px;
+    background-color: rgba(128, 128, 128, 0.8);
+    position: absolute;
+    top: 300px;
+    left: 370px;
+}
+.introtext{
+    font-size: 58px;
+    color: white;
+    text-align:center;
+    padding: 120px 20px; 
+    font-family: 'Arial';
+    font-weight: bold;
+    line-height:125%
+}  
+h1{
+    font-weight: bold;
+    color: white;
+    font-family: 'Arial';
+} 
+.symbol_and_description{
+    display: flex;
+}
+.symbol{
+    margin-right: 10px;
+    font-size: large;
+}
+
+footer{
+    height: 6vh;
+    color: white;
+    background-color:#7E7575;
+    display: flex;
+    align-items:center;
+    width: 92.7vw;
+    padding-left: 140px;
+    font-family: Arial;
+    font-size: 11px;
+}
