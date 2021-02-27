@@ -1,0 +1,92 @@
+
+.wrapper{
+    width: 100vw;
+}
+.section1{
+    background-color: white;
+    width: 70vw;
+    height: 80vh;
+    padding: 10vh 15vw 10vh 15vw;
+}
+.section2{
+    background-color: #CCC3C3;
+    width: 90vw;
+    height: 74vh;
+    padding: 10vh 5vw 10vh 5vw;
+    display: flex;
+}
+
+footer{
+    height: 6vh;
+    color: white;
+    background-color:#7E7575;
+    display: flex;
+    align-items:center;
+    width: 92.7vw;
+    padding-left: 140px;
+    font-family: Arial;
+    font-size: 11px;
+}
+.titleImage{
+    
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 150px;
+}
+.kreis{
+    border-radius: 124px;
+    background-color: rgba(128, 128, 128, 0.8);
+    height: 55%;
+    width: 32%;
+    z-index: 200;
+    position: absolute;
+    align-self: center;
+    left: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-size: 6vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 125%;
+}
+.text{
+    width: 27.5%;
+    height: 100%;
+    margin-right: 2.5%;
+    background-color: #7E7575;
+    border-radius: 31px;
+    color: white;
+    font-family: 'Arial';
+    line-height: 130%;
+    
+}
+
+.description{
+    font-size: 14px;
+    margin: 10%;
+}
+
+.diagramm{
+    width: 70%;
+    height: 100%;
+    background-color: #7E7575;
+}
+h1{
+    font-weight: bold;
+}
+
+
+
